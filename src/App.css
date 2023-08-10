@@ -1,0 +1,277 @@
+h1 {
+  font-size: 32px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Source Sans Pro';
+}
+
+h2 {
+  font-size: 24px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Source Sans Pro';
+}
+
+h3 {
+  font-size: 18.72px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Source Sans Pro';
+}
+
+h4 {
+  font-size: 16px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Source Sans Pro';
+}
+
+h5 {
+  font-size: 13.28px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Source Sans Pro';
+}
+
+h6 {
+  font-size: 12px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Source Sans Pro';
+}
+
+p {
+  font-size: 16px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Source Sans Pro';
+  margin-bottom: 0px !important;
+}
+
+a {
+  font-size: 16px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Source Sans Pro';
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container{
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.header-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-button-links{
+  text-decoration: none;
+}
+
+.course-button-div{
+  height: 60px;
+  background-color: #0f5644;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.course-button-div p{
+  padding: 0 20px 0 20px;
+  font-size: 20px;
+}
+
+.loginwithpegasus{
+  height: 60px;
+  background-color: #0f5644;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.logout{
+  height: 60px;
+  background-color: #FF4E4A;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  text-align: center;
+  padding: 16px;
+}
+
+
+
+.visible-loader {
+  display: block;
+  font-size: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999999999;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.loading-icon {
+  background: url(https://cdn.pegasus.imarticus.org/imarticus_2/imarticus_logo_loader.svg)
+    center no-repeat;
+  display: block;
+  font-size: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999999999;
+}
+
+.rotate360 {
+  animation: rotate 0.6s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+[visible-when-invalid]:not(.visible),
+form [submit-error],
+form [submit-success],
+form [submitting] {
+  display: none;
+}
+
+form.amp-form-submit-error [submit-error],
+form.amp-form-submit-success [submit-success],
+form.amp-form-submitting [submitting] {
+  display: block;
+}
+.enquireCheckbox__next {
+  margin-bottom: 32px;
+}
+.submit_button__next {
+  margin-bottom: 16px;
+}
+
+.loaderHeight {
+  top: 23vw;
+  position: relative;
+}
+@media (max-width: 1080px) {
+  .loaderHeight {
+    top: 34vw;
+  }
+}
+@media (max-width: 480px) {
+  .loaderHeight {
+    top: 69vw;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.form-bottom-alert-error {
+  color: #d8000c;
+  font-size: 16px;
+  padding: 0;
+  text-align: center;
+}
+
+.center_alert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.form-bottom-alert-info {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #035642;
+}
+
+.otp_enter_button {
+  padding: 0px 0px 20px 0px;
+}
+
+.error_msg_bottom {
+  color: #d8000c;
+  font-size: 16px;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+}
+
+.success_msg_bottom{
+  color: #68c29d;
+  font-size: 16px;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+}
+
+.main-container2{
+  text-align: center;
+  padding-top: 80px;
+  margin: auto;
+}
+
+.page-item.active .page-link{
+  background-color: #097252 !important;
+  border-color: #097252 !important;
+  color: #fff !important;
+}
+
+.page-link{
+  color: #097252 !important;
+}

@@ -1,0 +1,168 @@
+.approvedandrejectbtn {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.approved {
+  width: 199px;
+  height: 48px;
+  background: #035642;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.reject {
+  width: 199px;
+  height: 48px;
+  background: rgba(255, 0, 0, 0.8);
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.otp_main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.model_container {
+  display: flex !important;
+  justify-content: center !important;
+  width: 450px !important;
+  text-align: center !important;
+  align-items: center !important;
+  left: 44% !important;
+}
+
+.model_container .modal-dialog-centered {
+  width: 500px !important;
+}
+
+.model_container .modal-dialog-centered .modal-content {
+  width: 89% !important;
+}
+
+.otp_main_div_p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3c4852;
+}
+
+.otp-input {
+  width: 358px !important;
+  height: 48px !important;
+  text-align: center;
+  border: 1px solid rgba(33, 42, 57, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.otp_div_button {
+  margin-top: 10px;
+}
+
+.otp_very_btn {
+  width: 358px;
+  height: 56px;
+  background: #035642;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.otp_btn {
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+
+.deploymentComponent{
+  margin: 0 20px;
+}
+
+.deploymentComponenth1{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.deploymentlogcontainer{
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.deploymentlogcontainer2 h1{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.deploymentlogcontainer h1{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.deploymentlog{
+  background-color: black;
+  height: 600px;
+  width: 800px;
+  padding: 0 18px;
+  overflow-y: scroll;
+  overflow-x: initial;
+}
+
+.deploymentlog h1{
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 28px;
+}
+.webinarHeadingMain{
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #097252;
+}
+.webinarHeading{
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+.webinarHeadingDiv{
+  margin-left: 20px;
+  margin-top: 4px;
+}
+.webinarHeadingDiv1{
+  margin-left: 20px;
+  margin-top: 4px;
+}
+.webinarHeadingDiv2{
+  margin-left: 40px;
+  margin-top: 4px;
+}
+.webinarHeading2{
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}

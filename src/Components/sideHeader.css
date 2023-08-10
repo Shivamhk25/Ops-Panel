@@ -1,0 +1,33 @@
+
+.box_li_container{
+  align-items: center;
+}
+
+.side_li.active{
+  float: left;
+  display: flex;
+  border-left: 4px solid #fff;
+  align-items: center;
+  background: #022A22;
+  height: 50px;
+  width: 98%;
+  padding-left: 50px;
+}
+
+.side_li{
+  float: left;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 98%;
+  padding-left: 54px;
+}
+
+.side_li p{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  list-style: none;
+}

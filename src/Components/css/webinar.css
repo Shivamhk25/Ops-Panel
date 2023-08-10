@@ -1,0 +1,213 @@
+.webinar_pop_main{
+  position: relative;
+  display: inline-block;
+}
+.webinar_pop{
+  width: 600px;
+  background: rgba(65, 64, 66, 0.05);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 10;
+  top: 25%;
+  left: 60%;
+  margin-left: -80px;
+}
+.header{
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+color: #035642;
+border-bottom:1px solid #035642;
+margin-bottom: 20px;
+width:300px
+}
+.button {
+  width: 152px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 8px;
+  border:1px solid #035642;
+}
+.button p{
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    color: #035642;
+}
+.webinar-subheading {
+  margin: -20px 0px 0px -50px;
+}
+.webinar-subheading-div {
+  margin: -20px 0px 0px -50px;
+}
+.webinar-speaker2 > fieldset > legend {
+  display: none;
+}
+.webinar-subheading > div > label > span {
+  display: none;
+}
+.webinar-subheading-div > div > label > span {
+  display: none;
+}
+.webinar-subheading-main > fieldset > legend {
+  border-bottom: none;
+}
+.webinar-subheading1 {
+  margin: -25px 0px 0px;
+}
+.webinar-subheading1 > label {
+  display: none;
+}
+.webinar-subheading2 {
+  margin: 0px 0px 10px 0px;
+}
+.webinar-ImageTab {
+  margin: 0px 0px 10px 0px;
+}
+.webinar-subheading > div > label > input {
+  width: 24px;
+  height: 24px;
+  margin-top: -32px;
+}
+.webinar-subheading-div > div > label > input {
+  width: 24px;
+  height: 24px;
+  margin-top: -56px;
+}
+.webinar-speaker {
+  margin: -30px 0px 0px 0px;
+}
+.webinar-speaker > fieldset > legend {
+  display: none;
+}
+.webinar-speaker1 {
+  margin: -30px 0px 0px 0px;
+}
+.webinar-main-heading > fieldset > legend {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 25px;
+  color: #097252;
+  border-bottom: none;
+}
+.webinar-image-main{
+margin: -30px 0px 0px 0px;
+}
+.webinar-image-main > fieldset > legend {
+    border-bottom: none;
+    display: none;
+  }
+  .webinar-speaker-previous{
+    margin: -30px 0px 0px 0px;
+  }
+  .webinar-speaker-previous > fieldset > legend {
+    display: none;
+  }
+  .webinar-speaker-previous > fieldset > div:nth-child(3){
+      display: none;
+  }
+  .webinar-speaker-previous > fieldset > div:nth-child(2) > div > div:nth-child(2){
+    display: none;
+}
+.webinar-speaker-previous1 > fieldset > legend {
+    border-bottom: none;
+  }
+.webinar-speaker-previous1 > fieldset > div:nth-child(3){
+    display: none;
+}
+.webinar-speaker-previous1 > fieldset > div:nth-child(2) > div > div:nth-child(2){
+  display: none;
+}
+.webinar-subheading-main > fieldset > p{
+  margin-top: -10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #055646;
+}
+
+.webinar-disable1{
+  margin-top: -24px;
+}
+.webinar-disable1 > label{
+  display: none;
+}
+.webinar-disable1 > div{
+  margin-left: 16px;
+}
+.webinar-disable1 > div >div > label >span >input {
+  width: 16px;
+  height: 16px;
+}
+.webinar-disable1 > div >div > label >span >input {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+}
+.webinar-disable1 > div >div > label >span >span {
+  font-size: 16px;
+  margin-left: 4px;
+  margin-top: 8px;
+}
+.webinar-disable {
+  margin: -60px 0px 0px -50px;
+}
+.webinar-disable > div > label > inpuT{
+  width: 24px;
+  height: 24px;
+  }
+.webinar-disable > div > label > span{
+ display: none;
+ }
+.Setting-heading{
+  font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: black;
+    padding-bottom: 16px;
+}
+.Main-div{
+  margin-left: 2vw;
+  padding-bottom: 64px;
+  /* padding-top: -60px; */
+  margin-top: -60px;
+}
+.Setting-data-div{
+  background-color: green;
+  width: 94%;
+  height: 500px;
+  border-radius: 8px;
+ background-color: rgb(245, 245, 245);
+ overflow-y: scroll;
+}
+.Setting-data-div1{
+  padding:32px 40px;
+}
+.Main-div1{
+  margin-top: 56px;
+}
+.setting-div-button{
+  width: 94%;
+  margin-top: 24px;
+display: flex;
+justify-content: flex-end;
+}
+.setting-textarea{
+  width:100%;
+  height: 430px;
+}
