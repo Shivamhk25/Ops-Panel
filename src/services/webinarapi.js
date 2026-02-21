@@ -4,7 +4,6 @@ import Cookies from "universal-cookie";
 
 export default async function WebinarAllField(id) {
   const cookies = new Cookies();
-  console.log(cookies, "data");
   try {
     const res = await axios.get(
       `${configs.MARKETING_ENDPOINT}/marketingopspanel/webinar_all_fields?name=${id}`,
@@ -19,7 +18,6 @@ export default async function WebinarAllField(id) {
     );
     return res.data;
   } catch (error) {
-    console.log(error, "error from edit api");
     return Promise.reject(error);
   }
 }
@@ -27,7 +25,6 @@ export default async function WebinarAllField(id) {
 export async function WebinarEditApi(id, data) {
   const cookies = new Cookies();
   let aid = cookies.get("aid", { domain: configs.DOMAIN, path: "/" });
-  console.log(aid,"receive");
   try {
     return await axios.post(
       `${configs.MARKETING_ENDPOINT}/marketingopspanel/webinar_EditField${id}`,

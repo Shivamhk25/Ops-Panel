@@ -25,7 +25,6 @@ export async function editCourseApi(id, data) {
       }
     );
   } catch (error) {
-    console.log(error, "error from edit api");
     return Promise.reject(error)
   }
 }
@@ -46,8 +45,6 @@ export async function BrochureApi(id,formdata) {
       }
     )
   } catch(error){
-    // console.log(error.response, "error from edit api");
-
     return error.response;
   }
 }

@@ -19,7 +19,6 @@ export async function getDeployment() {
 
     return res;
   } catch (error) {
-    console.log(error);
     return {};
   }
 }
@@ -40,7 +39,6 @@ export async function postDeployment() {
     );
     return res;
   } catch (error) {
-    console.log(error);
     return {};
   }
 }
@@ -63,7 +61,6 @@ export async function getDeploymentStatus(currentPage,size) {
 
     return res.data;
   } catch (error) {
-    console.log(error);
     return {};
   }
 }
@@ -85,7 +82,6 @@ export async function getDeploymentSpecificStatus(id) {
 
     return res.data;
   } catch (error) {
-    console.log(error);
     return {};
   }
 }
@@ -110,7 +106,6 @@ export async function getDeploymentName(approvalID) {
 
     return res.data;
   } catch (error) {
-    console.log(error);
     return {};
   }
 }
